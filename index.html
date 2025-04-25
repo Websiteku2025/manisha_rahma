@@ -1,48 +1,46 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Home - Web Pribadi</title>
-  <link rel="stylesheet" href="css/style.css">
+    <title>Home - Web Sederhana</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="foto-profil.png" alt="Foto Profil" class="profil">
+        <h1>Manisha Rahma</h1>
+        <p>Catatan atau info singkat</p>
+    </header>
 
-<header>
-  <h1>Manisha Rahma</h1>
-  <p>Calon web developer</p>
-</header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-</nav>
+    <section class="overview">
+        <h2>Overview</h2>
+        <p>Saya adalah salah satu mahasiswa universitas bengkulu.Saat ini sedang belajar HTML di Praktek Web.</p>
+    </section>
 
-<div class="container">
-  <h2>Overview</h2>
-  <img src="images/profile.jpg" alt="Foto Profil" class="profile-pic">
-  <p>Saya adalah seorang mahasiswa yang sedang belajar HTML & Front-end Web.</p>
+    <section class="content-box">
+        <div>
+            <h3>Skill</h3>
+            <ul>
+                <li>HTML (Expert)</li>
+                <li>CSS (Beginner)</li>
+                <li>JavaScript (Beginner)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Pengalaman</h3>
+            <ul>
+                <li>Membuat desain website sederhana</li>
+                <li>Membuat halaman contact form dengan HTML</li>
+            </ul>
+        </div>
+    </section>
 
-  <h3>Skill & Pengalaman</h3>
-  <table>
-    <tr>
-      <th>Skill</th>
-      <th>Pengalaman</th>
-    </tr>
-    <tr>
-      <td>HTML (Beginner)</td>
-      <td>Membuat website pribadi sederhana</td>
-    </tr>
-    <tr>
-      <td>CSS (Beginner)</td>
-      <td>Memberi gaya pada halaman web</td>
-    </tr>
-  </table>
-</div>
-
-<footer>
-  Copyright 2025 &copy; Manisha Rahma
-</footer>
-
+    <footer>
+        <p>&copy; 2025 Manisha Rahma</p>
+    </footer>
 </body>
 </html>
