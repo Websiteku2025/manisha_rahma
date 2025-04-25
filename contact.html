@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Contact - Web Sederhana</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contact - Web Pribadi</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Contact Me</h1>
-    </header>
 
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+<header>
+  <h1>Hubungi Saya</h1>
+</header>
 
-    <form class="contact-form">
-        <label>Email</label><br>
-        <input type="email" name="email"><br><br>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-        <label>Pesan</label><br>
-        <textarea name="pesan" rows="5" cols="30"></textarea><br><br>
+<div class="container">
+  <h2>Contact Me</h2>
+  <form action="#">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
-        <button type="submit">Kirim</button>
-    </form>
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" rows="5" required></textarea><br><br>
 
-    <footer>
-        <p>&copy; Manisha Rahma</p>
-    </footer>
+    <button type="submit">Kirim</button>
+  </form>
+</div>
+
+<footer>
+  Copyright 2025 &copy; Manisha Rahma
+</footer>
+
 </body>
 </html>
